@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 from datetime import datetime
-from main import is_palindrome, say_goodbye, say_hello, main
+from src.main import is_palindrome, say_goodbye, say_hello, main
 
 class TestMainFunctions(unittest.TestCase):
     
